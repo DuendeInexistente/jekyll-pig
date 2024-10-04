@@ -1,3 +1,4 @@
+# This comment is here to let me know it's my version
 
 require 'fileutils'
 require 'json'
@@ -36,7 +37,7 @@ module JekyllPig
             "exclude: true\n"                                                                                                                               \
             "---\n"                                                                                                                                         \
             "<div><a href=\"#{prev_url}\" style=\"display:inline;\">prev</a><a href=\"#{next_url}\" style=\"display:inline; float:right\">next</a></div>\n" \
-            "<img src=\"{{site.baseurl}}/assets/img/#{gallery_name}/1024/#{name}\"/>\n"                                                                                     
+            "<img src=\"{{site.baseurl}}/assets/img/#{gallery_name}/4096/#{name}\"/>\n"                                                                                     
         end
         
         def gallery_html(id, image_data)
