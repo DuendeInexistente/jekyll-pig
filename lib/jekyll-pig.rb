@@ -37,7 +37,7 @@ module JekyllPig
             "exclude: true\n"                                                                                                                               \
             "---\n"                                                                                                                                         \
             "<div><a href=\"#{prev_url}\" style=\"display:inline;\">prev</a><a href=\"#{next_url}\" style=\"display:inline; float:right\">next</a></div>\n" \
-            "<img src=\"{{site.baseurl}}/assets/img/#{gallery_name}/4096/#{name}\"/>\n"                                                                                     
+            "<img src=\"{{site.baseurl}}/assets/img/#{gallery_name}/4096/#{name}\"/>\n{{file.path}}"                                                                                     
         end
         
         def gallery_html(id, image_data)
